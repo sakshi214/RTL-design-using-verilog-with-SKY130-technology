@@ -20,8 +20,12 @@ The cell contains the information about leakage power,area,dealay,inputcapacitan
 ![image](https://user-images.githubusercontent.com/69634738/123543028-56575000-d76a-11eb-84fb-508a7ee70c1b.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123543258-37a58900-d76b-11eb-8926-a249b769dae1.png)
+![image](https://user-images.githubusercontent.com/69634738/123543449-1ee9a300-d76c-11eb-9634-59da825572db.png)
 
-![image](https://user-images.githubusercontent.com/69634738/123543280-5277fd80-d76b-11eb-952e-2e05326ccd84.png)
+
+## Hierarchical vs Flat Synthesis
+
+
 
 
 
