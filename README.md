@@ -8,14 +8,14 @@
 # DAY-2
 # Timing libs hierarchical vs flat synthesis and efficient flop coding styles
 
-## Introduction to timing libs
+## Introduction to timing libraries
 
 .lib is a collection of standard cells containing slow as well as fast cells.
 This is how the library starts, it suggests about the operating conditions i.e, voltage, process, temperature.
 
 ![image](https://user-images.githubusercontent.com/69634738/123542877-818d6f80-d769-11eb-9af3-f105a8d710fe.png)
 
-The cell contains the information about leakage power,area,dealay,inputcapacitance, timing etc.
+The cell contains the information about leakage power,area,delay,input capacitance, timing etc.
 
 ![image](https://user-images.githubusercontent.com/69634738/123543028-56575000-d76a-11eb-84fb-508a7ee70c1b.png)
 
@@ -23,7 +23,7 @@ The cell contains the information about leakage power,area,dealay,inputcapacitan
 ![image](https://user-images.githubusercontent.com/69634738/123543449-1ee9a300-d76c-11eb-9634-59da825572db.png)
 
 
-## Hierarchical vs Flat Synthesis
+## Heirarchical vs Flat Synthesis
 
 
 
