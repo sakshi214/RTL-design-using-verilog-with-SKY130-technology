@@ -40,10 +40,8 @@ This is how the library starts, it suggests about the operating conditions i.e, 
 
 ![image](https://user-images.githubusercontent.com/69634738/123542877-818d6f80-d769-11eb-9af3-f105a8d710fe.png)
 
-The cell contains the information about leakage power,area,delay,input capacitance, timing etc.
-
+- The cell contains the information about leakage power,area,delay,input capacitance, timing etc.
 ![image](https://user-images.githubusercontent.com/69634738/123543028-56575000-d76a-11eb-84fb-508a7ee70c1b.png)
-
 ![image](https://user-images.githubusercontent.com/69634738/123543258-37a58900-d76b-11eb-8926-a249b769dae1.png)
 ![image](https://user-images.githubusercontent.com/69634738/123543449-1ee9a300-d76c-11eb-9634-59da825572db.png)
 
@@ -130,10 +128,7 @@ Example 3 : two flops and having same clock and reset is given by dff_const3.
 # GLS,blocking vs non-blocking and Synthesis-Simulation Mismatch
 - GLS stands for Gate Level Simulation.
 
-
-
 To run GLS we need the netlist,the verilog models and the testbench of the standard cell library.
-
 example: mux using ternary operator
 ![image](https://user-images.githubusercontent.com/69634738/123648375-85db8a80-d846-11eb-9958-8e5bfeddd09a.png)
 ![image](https://user-images.githubusercontent.com/69634738/123648472-98ee5a80-d846-11eb-80db-c3b52b2bfde1.png)
@@ -143,7 +138,6 @@ the show command results in:
 ![image](https://user-images.githubusercontent.com/69634738/123654348-9d694200-d84b-11eb-8195-2ada6042686e.png)
 
 ## Synthesis Simulation Mismatch issues
-
 
 Taking a simple code:
 ![image](https://user-images.githubusercontent.com/69634738/123655703-d950d700-d84c-11eb-859b-c55e2c25e9e1.png)
@@ -159,14 +153,17 @@ previosusly it was looking at the past values.
 
 # DAY-5
 # If,case,for loop and for generate
+- To create priority logic 'if' statement is used.
+- If, case , loop statements are known as behavioral statements
+- the evaluation of statements takes place from top to bottom.
 
-
+To show the incomplete if case:
 ![image](https://user-images.githubusercontent.com/69634738/123659396-444fdd00-d850-11eb-897d-e6698b7f3dba.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123659478-5c276100-d850-11eb-980d-4b22866068d6.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123659572-77926c00-d850-11eb-8124-3f2004c3a4b6.png)
-
+the simulation output:
 ![image](https://user-images.githubusercontent.com/69634738/123659694-9690fe00-d850-11eb-9527-6d59667f25a0.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123659831-b7595380-d850-11eb-8767-3f5e1b8dbb0c.png)
@@ -176,6 +173,10 @@ previosusly it was looking at the past values.
 ![image](https://user-images.githubusercontent.com/69634738/123660287-26cf4300-d851-11eb-9700-559fb44affd8.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123660403-41a1b780-d851-11eb-9297-2a4b3844957d.png)
+
+# Acknowledgement
+- Kunal Ghosh (Co-founder) (VSD Corp Pvt Ltd)
+- Shon Taware (Teaching Assistant) (VSD Corp Pvt Ltd)
 
 
 
