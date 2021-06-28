@@ -107,6 +107,55 @@ Example 3 : two flops and having same clock and reset is given by dff_const3.
 
 
 
+To run GLS we need the netlist,the verilog models and the testbench of the standard cell library.
+
+example: mux using ternary operator
+![image](https://user-images.githubusercontent.com/69634738/123648375-85db8a80-d846-11eb-9958-8e5bfeddd09a.png)
+![image](https://user-images.githubusercontent.com/69634738/123648472-98ee5a80-d846-11eb-80db-c3b52b2bfde1.png)
+![image](https://user-images.githubusercontent.com/69634738/123648572-adcaee00-d846-11eb-876f-eb0c2bd6f8cb.png)
+![image](https://user-images.githubusercontent.com/69634738/123654265-84f92780-d84b-11eb-8a1e-878e09031142.png)
+the show command results in:
+![image](https://user-images.githubusercontent.com/69634738/123654348-9d694200-d84b-11eb-8195-2ada6042686e.png)
+
+## Synthesis Simulation Mismatch issues
+
+
+Taking a simple code:
+![image](https://user-images.githubusercontent.com/69634738/123655703-d950d700-d84c-11eb-859b-c55e2c25e9e1.png)
+The RTL simulation:
+![image](https://user-images.githubusercontent.com/69634738/123656302-6b58df80-d84d-11eb-8036-2784c78f497e.png)
+![image](https://user-images.githubusercontent.com/69634738/123656377-7c095580-d84d-11eb-9459-fb3fe5fb4cb3.png)
+OR to AND gate we get, there is no latch present
+![image](https://user-images.githubusercontent.com/69634738/123656462-93e0d980-d84d-11eb-843b-660f06a1ed3a.png)
+on doing GLS we get, it is not looking at the instantaneos values
+previosusly it was looking at the past values.
+![image](https://user-images.githubusercontent.com/69634738/123657486-752f1280-d84e-11eb-8336-0fe3246411e8.png)
+
+
+# DAY-5
+# If,case,for loop and for generate
+
+
+![image](https://user-images.githubusercontent.com/69634738/123659396-444fdd00-d850-11eb-897d-e6698b7f3dba.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123659478-5c276100-d850-11eb-980d-4b22866068d6.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123659572-77926c00-d850-11eb-8124-3f2004c3a4b6.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123659694-9690fe00-d850-11eb-9527-6d59667f25a0.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123659831-b7595380-d850-11eb-8767-3f5e1b8dbb0c.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123659953-d526b880-d850-11eb-936a-57d7cc6c8331.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123660287-26cf4300-d851-11eb-9700-559fb44affd8.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123660403-41a1b780-d851-11eb-9297-2a4b3844957d.png)
+
+
+
+
+
 
 
 
