@@ -4,20 +4,30 @@
 
 # DAY-1
 # Introduction to verilog RTL design and synthesis
+- The tool used for simulation is iverilog
+- Simulator, Design and testbench are the key things.
+- RTL design : this is the behavioral representation of the required specification.
+- Synthesis : RTL to gate level translation. In this the design is converted into gates.
+- .lib : It is the collection of logical modules. It includes basic logic gates like  AND,OR etc.
 
+This is how the good_mux file looks:
 ![image](https://user-images.githubusercontent.com/69634738/123664860-5ed88500-d855-11eb-9cca-db3d76deb1ec.png)
 ![image](https://user-images.githubusercontent.com/69634738/123665078-91827d80-d855-11eb-906a-0adf9a742ed8.png)
 
 
 ## Introduction to yosys
+- Synthesizer is a tool used for converting the RTL to netlist.
+- YOSYS is the synthesizer used in the design workshop.
 ![image](https://user-images.githubusercontent.com/69634738/123668556-d65be380-d858-11eb-9eec-6b5df1e83b17.png)
 
-
+To invoke synthesizer 'yosys' command is used.
 ![image](https://user-images.githubusercontent.com/69634738/123665602-0eadf280-d856-11eb-889a-edc66a1556ce.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123665520-fc33b900-d855-11eb-83e2-b36695eb4871.png)
 
-
+## To verify the synthesis
+- The netlist and testbench are fed to iverilog, which generates a vcd file.
+- Using this vcd file gtkwave is generated (which is same as output observed during RTL simulation).
 
 
 # DAY-2
@@ -39,40 +49,40 @@ The cell contains the information about leakage power,area,delay,input capacitan
 
 
 ## Heirarchical vs Flat Synthesis
-This is to show how the netlist looks around in heirarchical synthesis and flat synthesis
+- This is to show how the netlist looks around in heirarchical synthesis and flat synthesis
 
-The file is multiple modules containing two sub modules with AND and OR gates. The module named multiple module is instantiating the sub modules. 
+- The file is multiple modules containing two sub modules with AND and OR gates. The module named multiple module is instantiating the sub modules. 
 
 ![image](https://user-images.githubusercontent.com/69634738/123591394-87d32880-d809-11eb-8c96-8d7708b9d91f.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123592880-768b1b80-d80b-11eb-885a-a4df66e2e638.png)
-This is the information about the submodules.
 
+- This is the information about the submodules.
 ![image](https://user-images.githubusercontent.com/69634738/123593110-c538b580-d80b-11eb-97dc-ffb42b35cb43.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123593231-e6010b00-d80b-11eb-84a5-e5e4d05e4d16.png)
-It is not showing AND and OR directly but instead U1 AND U2. This is the heirarchical design.
+- It is not showing AND and OR directly but instead U1 AND U2. This is the heirarchical design.
 ![image](https://user-images.githubusercontent.com/69634738/123593328-00d37f80-d80c-11eb-8313-83da8dd471d1.png)
 Now to see how the netlist looks like
 ![image](https://user-images.githubusercontent.com/69634738/123594135-f9f93c80-d80c-11eb-87ea-f6cc750f8e55.png)
 
-Use of flatten: flatten is a command to write flat netlist.
+- Use of flatten: flatten is a command to write flat netlist.
 ![image](https://user-images.githubusercontent.com/69634738/123595031-0c27aa80-d80e-11eb-801f-7041ccd6ac30.png)
 There are no heirarchies, its a single netlist.
 ![image](https://user-images.githubusercontent.com/69634738/123595129-26fa1f00-d80e-11eb-8da7-dcbe57668662.png)
 There is no U1 and U2 now AND and OR gates are shown.
 ![image](https://user-images.githubusercontent.com/69634738/123595198-41cc9380-d80e-11eb-865b-9b34291b8bb8.png)
 
-synthsis at submodule 1 level:
+- synthesis at submodule 1 level:
 ![image](https://user-images.githubusercontent.com/69634738/123609784-9c212080-d81d-11eb-9fdb-1388eb5d0063.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123609925-bd820c80-d81d-11eb-98de-4340a8be05e0.png)
 
-When is it needed to do module level synthesis?
+- When is it needed to do module level synthesis?
 i When we have multiple instances of same module
 ii In massive designs DIVIDE AND CONQUER approach is used.
 
-To control which module is to be synthesised the keyword 'synth -top' is used.
+- To control which module is to be synthesised the keyword 'synth -top' is used.
 
 ## Various Flop Coding Style and Simulations
 
