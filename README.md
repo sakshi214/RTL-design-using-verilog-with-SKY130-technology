@@ -124,6 +124,10 @@ ii In massive designs DIVIDE AND CONQUER approach is used.
 - To control which module is to be synthesised the keyword 'synth -top' is used.
 
 ## Various Flop Coding Style and Simulations
+- The flops are used when the output becomes glitching due to use of many combinational circuits.
+- We use SET/RESET pins to initialize the flipflops
+- asynchronous reset: clock does not matter, if reset is one => output goes to zero.
+- asynchronous set: clock does not matter, if set is one => output goes to one.
 
 ![image](https://user-images.githubusercontent.com/69634738/123621440-d2b06880-d828-11eb-885f-ab19cffe5829.png)
 
@@ -212,7 +216,8 @@ the simulation output:
 ![image](https://user-images.githubusercontent.com/69634738/123659831-b7595380-d850-11eb-8767-3f5e1b8dbb0c.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123659953-d526b880-d850-11eb-936a-57d7cc6c8331.png)
-
+## For Loop and For generate
+To show the comp case:
 ![image](https://user-images.githubusercontent.com/69634738/123660287-26cf4300-d851-11eb-9700-559fb44affd8.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123660403-41a1b780-d851-11eb-9297-2a4b3844957d.png)
