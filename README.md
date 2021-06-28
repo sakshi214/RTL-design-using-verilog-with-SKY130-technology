@@ -4,6 +4,7 @@
 
 # Table of Contents
 - [RTL-design-using-verilog-with-SKY130-technology](#rtl-design-using-verilog-with-sky130-technology)
+- [Table of Contents](#table-of-contents)
 - [DAY-1](#day-1)
 - [Introduction to verilog RTL design and synthesis](#introduction-to-verilog-rtl-design-and-synthesis)
   * [Introduction to yosys](#introduction-to-yosys)
@@ -21,11 +22,12 @@
 - [DAY-4](#day-4)
 - [GLS,blocking vs non-blocking and Synthesis-Simulation Mismatch](#gls-blocking-vs-non-blocking-and-synthesis-simulation-mismatch)
   * [Synthesis Simulation Mismatch issues](#synthesis-simulation-mismatch-issues)
+  * [Caveats with blocking statements](#caveats-with-blocking-statements)
 - [DAY-5](#day-5)
 - [If,case,for loop and for generate](#if-case-for-loop-and-for-generate)
 - [Acknowledgement](#acknowledgement)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 # DAY-1
@@ -182,6 +184,8 @@ Taking a simple code:
 ![image](https://user-images.githubusercontent.com/69634738/123655703-d950d700-d84c-11eb-859b-c55e2c25e9e1.png)
 The RTL simulation:
 ![image](https://user-images.githubusercontent.com/69634738/123656302-6b58df80-d84d-11eb-8036-2784c78f497e.png)
+
+## Caveats with blocking statements
 ![image](https://user-images.githubusercontent.com/69634738/123656377-7c095580-d84d-11eb-9459-fb3fe5fb4cb3.png)
 OR to AND gate we get, there is no latch present
 ![image](https://user-images.githubusercontent.com/69634738/123656462-93e0d980-d84d-11eb-843b-660f06a1ed3a.png)
