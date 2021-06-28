@@ -69,19 +69,28 @@ To control which module is to be synthesised the keyword 'synth -top' is used.
 In order to optimize designs in terms of area and power, optmization techniques are used.
 
 ## Combinational Logic Optimizations
+To squeeze the logic to get the most optimized designs for area and power savings.
 The two types of techniques for combinational logic optimization are
 (a)Constant Propagation  (b)Boolean logic optmization
 
 ![image](https://user-images.githubusercontent.com/69634738/123624102-d1cd0600-d82b-11eb-9031-ad089111c257.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123624195-e90bf380-d82b-11eb-9a06-9436b15f51dc.png)
-
+The three example file which represent mux are opt_check,opt_check2 and opt_check3.
 opt check:
 ![image](https://user-images.githubusercontent.com/69634738/123624265-fe811d80-d82b-11eb-83bf-986c3dc2803a.png)
 optcheck2:
 ![image](https://user-images.githubusercontent.com/69634738/123625307-43598400-d82d-11eb-901a-51d62fccde11.png)
 opt check 3
 ![image](https://user-images.githubusercontent.com/69634738/123625400-59674480-d82d-11eb-90b4-279f887bcc84.png)
+
+## Sequential Logic Optimizations
+The four types of sequential logic optimization are
+(a)Sequential constant propagation (b)state optimization (c)Retiming (d)Sequential logic cloning
+The tool used is iverilog and file name is dff_const:
+![image](https://user-images.githubusercontent.com/69634738/123635448-51ad9d00-d839-11eb-96f0-6ec5a5b24d4a.png)
+![image](https://user-images.githubusercontent.com/69634738/123635566-6f7b0200-d839-11eb-9f01-61e1db7c9ee1.png)
+![image](https://user-images.githubusercontent.com/69634738/123635642-86215900-d839-11eb-8265-cf50e7e5fb53.png)
 
 
 
