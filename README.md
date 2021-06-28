@@ -37,10 +37,21 @@ This is the information about the submodules.
 ![image](https://user-images.githubusercontent.com/69634738/123593110-c538b580-d80b-11eb-97dc-ffb42b35cb43.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123593231-e6010b00-d80b-11eb-84a5-e5e4d05e4d16.png)
-It is not showing AND and OR directly but instead U1 AND U2. This is the heirarchical design
-
+It is not showing AND and OR directly but instead U1 AND U2. This is the heirarchical design.
 
 ![image](https://user-images.githubusercontent.com/69634738/123593328-00d37f80-d80c-11eb-8313-83da8dd471d1.png)
+Now to see how the netlist looks like
+![image](https://user-images.githubusercontent.com/69634738/123594135-f9f93c80-d80c-11eb-87ea-f6cc750f8e55.png)
+
+Use of flatten: flatten is a command to write flat netlist.
+![image](https://user-images.githubusercontent.com/69634738/123595031-0c27aa80-d80e-11eb-801f-7041ccd6ac30.png)
+There are no heirarchies, its a single netlist.
+
+![image](https://user-images.githubusercontent.com/69634738/123595129-26fa1f00-d80e-11eb-8da7-dcbe57668662.png)
+There is no U1 and U2 now AND and OR gates are shown.
+
+![image](https://user-images.githubusercontent.com/69634738/123595198-41cc9380-d80e-11eb-865b-9b34291b8bb8.png)
+
 
 
 
