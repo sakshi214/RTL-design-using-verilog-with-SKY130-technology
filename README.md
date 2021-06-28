@@ -2,6 +2,32 @@
 
 ![Verilog-flyer](https://user-images.githubusercontent.com/69634738/123540568-4be28980-d75d-11eb-83cb-83318934faa3.png)
 
+# Table of Contents
+- [RTL-design-using-verilog-with-SKY130-technology](#rtl-design-using-verilog-with-sky130-technology)
+- [DAY-1](#day-1)
+- [Introduction to verilog RTL design and synthesis](#introduction-to-verilog-rtl-design-and-synthesis)
+  * [Introduction to yosys](#introduction-to-yosys)
+  * [To verify the synthesis](#to-verify-the-synthesis)
+  * [Faster cells vs slower cells](#faster-cells-vs-slower-cells)
+- [DAY-2](#day-2)
+- [Timing libs hierarchical vs flat synthesis and efficient flop coding styles](#timing-libs-hierarchical-vs-flat-synthesis-and-efficient-flop-coding-styles)
+  * [Introduction to timing libraries](#introduction-to-timing-libraries)
+  * [Heirarchical vs Flat Synthesis](#heirarchical-vs-flat-synthesis)
+  * [Various Flop Coding Style and Simulations](#various-flop-coding-style-and-simulations)
+- [DAY-3](#day-3)
+- [Combinational and Sequential Optimizations](#combinational-and-sequential-optimizations)
+  * [Combinational Logic Optimizations](#combinational-logic-optimizations)
+  * [Sequential Logic Optimizations](#sequential-logic-optimizations)
+- [DAY-4](#day-4)
+- [GLS,blocking vs non-blocking and Synthesis-Simulation Mismatch](#gls-blocking-vs-non-blocking-and-synthesis-simulation-mismatch)
+  * [Synthesis Simulation Mismatch issues](#synthesis-simulation-mismatch-issues)
+- [DAY-5](#day-5)
+- [If,case,for loop and for generate](#if-case-for-loop-and-for-generate)
+- [Acknowledgement](#acknowledgement)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # DAY-1
 # Introduction to verilog RTL design and synthesis
 - The tool used for simulation is iverilog
