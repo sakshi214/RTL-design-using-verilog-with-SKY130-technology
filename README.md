@@ -2,6 +2,9 @@
 
 ![Verilog-flyer](https://user-images.githubusercontent.com/69634738/123540568-4be28980-d75d-11eb-83cb-83318934faa3.png)
 
+# DAY-1
+# Introduction to verilog RTL design and synthesis
+
 
 
 
