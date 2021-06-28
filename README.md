@@ -24,6 +24,26 @@ The cell contains the information about leakage power,area,delay,input capacitan
 
 
 ## Heirarchical vs Flat Synthesis
+This is to show how the netlist looks around in heirarchical synthesis and flat synthesis
+
+The file is multiple modules containing two sub modules with AND and OR gates. The module named multiple module is instantiating the sub modules. 
+
+
+![image](https://user-images.githubusercontent.com/69634738/123591394-87d32880-d809-11eb-8c96-8d7708b9d91f.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123592880-768b1b80-d80b-11eb-885a-a4df66e2e638.png)
+This is the information about the submodules.
+
+![image](https://user-images.githubusercontent.com/69634738/123593110-c538b580-d80b-11eb-97dc-ffb42b35cb43.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123593231-e6010b00-d80b-11eb-84a5-e5e4d05e4d16.png)
+It is not showing AND and OR directly but instead U1 AND U2. This is the heirarchical design
+
+
+![image](https://user-images.githubusercontent.com/69634738/123593328-00d37f80-d80c-11eb-8313-83da8dd471d1.png)
+
+
+
 
 
 
