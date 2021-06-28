@@ -20,7 +20,15 @@ This is how the good_mux file looks:
 - YOSYS is the synthesizer used in the design workshop.
 ![image](https://user-images.githubusercontent.com/69634738/123668556-d65be380-d858-11eb-9eec-6b5df1e83b17.png)
 
-To invoke synthesizer 'yosys' command is used.
+- Basic commands used are:
+1.Invoke yosys
+2.Read liberty file
+3.Read verilog file
+4.Run synthesis
+5.Netlist generation
+6. show command
+
+- To invoke synthesizer 'yosys' command is used.
 ![image](https://user-images.githubusercontent.com/69634738/123665602-0eadf280-d856-11eb-889a-edc66a1556ce.png)
 
 ![image](https://user-images.githubusercontent.com/69634738/123665520-fc33b900-d855-11eb-83e2-b36695eb4871.png)
@@ -28,6 +36,11 @@ To invoke synthesizer 'yosys' command is used.
 ## To verify the synthesis
 - The netlist and testbench are fed to iverilog, which generates a vcd file.
 - Using this vcd file gtkwave is generated (which is same as output observed during RTL simulation).
+
+## Faster cells vs slower cells
+- Faster the charging/discharging of capacitor implies lesser the cell delay.
+- To charge/discharge the capacitance fast wide area transistors are used (has more area and power)
+- Narrow transistors incurr more delay, less area and less power.
 
 
 # DAY-2
