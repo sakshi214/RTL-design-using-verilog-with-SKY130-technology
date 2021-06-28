@@ -102,7 +102,8 @@ Example 3 : two flops and having same clock and reset is given by dff_const3.
 ![image](https://user-images.githubusercontent.com/69634738/123640824-2ded5580-d83f-11eb-9b01-b23c5b916de1.png)
 
 # DAY-4
-#
+# GLS,blocking vs non-blocking and Synthesis-Simulation Mismatch
+- GLS stands for Gate Level Simulation.
 
 
 
