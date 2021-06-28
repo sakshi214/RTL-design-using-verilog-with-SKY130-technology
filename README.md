@@ -59,8 +59,30 @@ ii In massive designs DIVIDE AND CONQUER approach is used.
 
 To control which module is to be synthesised the keyword 'synth -top' is used.
 
+## Various Flop Coding Style and Simulations
+
+![image](https://user-images.githubusercontent.com/69634738/123621440-d2b06880-d828-11eb-885f-ab19cffe5829.png)
+
+
 # DAY-3
 # Combinational and Sequential Optimizations
+In order to optimize designs in terms of area and power, optmization techniques are used.
+
+## Combinational Logic Optimizations
+The two types of techniques for combinational logic optimization are
+(a)Constant Propagation  (b)Boolean logic optmization
+
+![image](https://user-images.githubusercontent.com/69634738/123624102-d1cd0600-d82b-11eb-9031-ad089111c257.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123624195-e90bf380-d82b-11eb-9a06-9436b15f51dc.png)
+
+opt check:
+![image](https://user-images.githubusercontent.com/69634738/123624265-fe811d80-d82b-11eb-83bf-986c3dc2803a.png)
+optcheck2:
+![image](https://user-images.githubusercontent.com/69634738/123625307-43598400-d82d-11eb-901a-51d62fccde11.png)
+opt check 3
+![image](https://user-images.githubusercontent.com/69634738/123625400-59674480-d82d-11eb-90b4-279f887bcc84.png)
+
 
 
 
