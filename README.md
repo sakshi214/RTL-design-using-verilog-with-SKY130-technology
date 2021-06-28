@@ -87,10 +87,25 @@ opt check 3
 ## Sequential Logic Optimizations
 The four types of sequential logic optimization are
 (a)Sequential constant propagation (b)state optimization (c)Retiming (d)Sequential logic cloning
-The tool used is iverilog and file name is dff_const:
+
+The tool used is iverilog and file name is dff_const1:
 ![image](https://user-images.githubusercontent.com/69634738/123635448-51ad9d00-d839-11eb-96f0-6ec5a5b24d4a.png)
 ![image](https://user-images.githubusercontent.com/69634738/123635566-6f7b0200-d839-11eb-9f01-61e1db7c9ee1.png)
+The gtkwave shows the simulation:
 ![image](https://user-images.githubusercontent.com/69634738/123635642-86215900-d839-11eb-8265-cf50e7e5fb53.png)
+the output after synthesis is:
+the one marked with red color is flipflop having clock,reset pin and D.
+![image](https://user-images.githubusercontent.com/69634738/123638951-5a07d700-d83d-11eb-9574-267b2256a462.png)
+The example of the optimized sequential output is dff_const2:
+![image](https://user-images.githubusercontent.com/69634738/123639844-342f0200-d83e-11eb-898b-8ab412105880.png)
+Example 3 : two flops and having same clock and reset is given by dff_const3.
+![image](https://user-images.githubusercontent.com/69634738/123640824-2ded5580-d83f-11eb-9b01-b23c5b916de1.png)
+
+# DAY-4
+#
+
+
+
 
 
 
