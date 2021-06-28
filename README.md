@@ -5,6 +5,18 @@
 # DAY-1
 # Introduction to verilog RTL design and synthesis
 
+![image](https://user-images.githubusercontent.com/69634738/123664860-5ed88500-d855-11eb-9cca-db3d76deb1ec.png)
+![image](https://user-images.githubusercontent.com/69634738/123665078-91827d80-d855-11eb-906a-0adf9a742ed8.png)
+
+
+## Introduction to yosys
+![image](https://user-images.githubusercontent.com/69634738/123668556-d65be380-d858-11eb-9eec-6b5df1e83b17.png)
+
+
+![image](https://user-images.githubusercontent.com/69634738/123665602-0eadf280-d856-11eb-889a-edc66a1556ce.png)
+
+![image](https://user-images.githubusercontent.com/69634738/123665520-fc33b900-d855-11eb-83e2-b36695eb4871.png)
+
 
 
 
